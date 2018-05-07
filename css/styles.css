@@ -1,0 +1,406 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+/*--- Estilos gerenales ---*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #a60f1a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+#wrap{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+/*---HEADER---*/
+
+.header{
+    width: 100%;
+    background: #c2bdbd; /* Old browsers */
+    background: -moz-linear-gradient(top, #c2bdbd 0%, #e8e5e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c2bdbd 0%,#e8e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c2bdbd 0%,#e8e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2bdbd', endColorstr='#e8e5e5',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
+}
+#subheader{
+    height: 100px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logotipo{
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    padding: 10px 0;
+}
+#logotipo a{
+    font-family: Inconsolata;
+    font-size: 40px;
+    color: #000000;
+}
+#logotipo a:hover{
+    text-decoration: none;
+}
+
+/*--- MAIN HEADER ---*/
+
+.main{
+    height: 70px;
+    width: 80%;
+    margin-top: -35px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #555555; /* Old browsers */
+    background: -moz-linear-gradient(top, #555555 0%, #a7a7a7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #555555 0%,#a7a7a7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #555555 0%,#a7a7a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#a7a7a7',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.5);
+}
+.container_main{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Karla-Italic;
+    font-size: 20pt;
+    color: #fff;
+}
+.home{
+    height: 100%;
+    float: left;
+    width: 40%;
+    padding: 10px 10px;
+}
+.home p{
+    border-radius: 3px;
+    display: table;
+    padding: 10px 5px 0;
+    text-align: center;
+    height: 40px;
+}
+.home p a{
+    display: table;
+    float: right;
+    margin-left: 10px;
+}
+.home p a:hover{
+    text-decoration: none;
+}
+.image{
+    padding: 0;
+    height: 32px;
+    width: 34px;
+}
+.home p:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1798af;
+}
+/*-- MAIN --*/
+.container_main nav{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 20px 10px;
+    text-align: right;
+}
+.container_main nav ul li{
+    display: inline;
+}
+.container_main nav ul li a{
+    padding: 10px;
+    border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+}
+.container_main nav ul li a:hover{
+    color: #fff;
+    background-color: #1798af;
+    text-decoration: none;
+}
+
+/*-- BODY MAIN --*/
+#main{
+    width: 100%;
+    margin: 20px 0 0;
+    float: left;
+}
+
+/*-- SLIDESHOW --*/
+/* -- SlidesJS Required: These styles are required if you'd like a responsive slideshow -- */
+/* Prevent the slideshow from flashing on load */
+
+#slides {
+    display: none;
+}
+
+/* Center the slideshow */
+
+.container {
+    margin: 0 auto;
+}
+
+/* Show active item in the pagination */
+
+.slidesjs-pagination .active {
+    color: red;
+}
+
+/* Media quires for a responsive layout */
+
+/* For tablets & smart phones */
+
+@media (max-width: 767px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .container {
+        width: auto;
+    }
+}
+
+/* For smartphones */
+
+@media (max-width: 480px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* For smaller displays like laptops */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px;
+    }
+}
+
+/* For larger displays */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+#slides {
+    width: 960px;
+    height: 285px;
+  }
+  .slidesjs-previous.slidesjs-navigation, .slidesjs-next.slidesjs-navigation{
+    display: none;
+  }
+  .slidesjs-container{
+    border: 20px solid white;
+  }
+  .slidesjs-control img{
+    width: 920px;
+    height: 100%;
+  }
+  .slidesjs-pagination{
+    margin: 0 auto 0;
+    width: 120px;
+    height: 20px;
+    padding: 4px 0;
+  }
+
+  .slidesjs-pagination-item {
+    list-style: none;
+    float: left;
+    list-style-type: none;
+  }
+
+  .slidesjs-pagination-item a {
+    margin: 0 5px;
+    width: 14px;
+    height: 14px;
+    padding-top: 14px;
+    float: left;
+    border-radius: 7px;
+    background-color: white;
+  }
+  .slidesjs-pagination-item .active{
+    background-color: steelblue;
+  }
+
+/*-- WELCOME --*/
+#bienvenidos{
+    width: 960px;
+    float: left;
+    background: linear-gradient(to bottom, #90d3a1 0%, #3bb159 100%);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.5);
+}
+#bienvenidos article h2{
+    font-family: CrimsonText-BoldItalic;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#bienvenidos article{
+    color: #fff;
+    line-height: 27px;
+}
+
+/*-- CONTENIDO --*/
+#contenido{
+    width: 700px;
+    float: left;
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 22px;
+    font-family: CrimsonText-BoldItalic;
+    color: #fff;
+}
+.date{
+    font-size: 14px;
+    font-family: CrimsonText-BoldItalic;
+    color: #76baef;
+    margin-bottom: 5px;
+}
+.thumb{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+#contenido article > p{
+    color: #01226f;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*-- SIDEBAR --*/
+
+aside{
+    width: 240px;
+    float: left;
+    margin-left: 20px;
+    background-color: #b5c00c;
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,.5);
+}
+
+.widget{
+    float: left;
+}
+.widget > h3{
+    background-color: #01226f;
+    color: #b5c00c;
+    width: 220px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Inconsolata;
+    margin-bottom: 10px;
+}
+.widget a{
+    color: #fff;
+    font-family: Karla-Regular;
+    font-size: 14px;
+    line-height: 27px;
+}
+.winget ul li{margin-bottom: 5px;}
+.winget img{
+    width: 220px;
+}
+/*-- FOOTER --*/
+footer{
+    padding: 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+    box-shadow: 0 3px 3px rgba(0,0,0,.5);
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #930a0a 0%, #d01212 100%);
+}
+footer section{
+    width: 470px;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+#acerca-de{
+    font-family:  Karla-Italic;
+    font-size: 12px;
+    color: #000000;
+    text-align: justify;
+    line-height: 20px;
+}
+#acerca-de h3{
+    font-family: CrimsonText-SemiBoldItalic;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+#redes-s > div{
+    width: 215px;
+    height: 65px;
+    float: left;
+    /*background-color: orange;*/
+    opacity: 0.5;
+}
+#redes-s > div a{
+    width: 215px;
+    height: 65px;
+    display: inline-block;
+}
+.email{
+    background-image: url(../images/icons/Mail.png);
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    background-size: contain;
+}
+.twitter{
+    background-image: url(../images/icons/Twitter.png);
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    background-size: contain;
+}
+.facebook{
+    background-image: url(../images/icons/Facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.youtube{
+    background-image: url(../images/icons/Youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#redes-s > div:hover{
+    opacity: 1;
+}
+#copyright{
+    float: left;
+    width: 960px;
+    margin: 10px 0;
+}
+#copyright p {
+    text-align: center;
+    font-size: 12px;
+    font-family: Georgia;
+}

@@ -1,0 +1,48 @@
+@font-face{
+    font-family: Karla-Regular;
+    src: url(../Fuestes/Karla/Karla-Regular.ttf);
+}
+@font-face{
+    font-family: Karla-Italic;
+    src: url(../Fuestes/Karla/Karla-Italic.ttf);
+}
+@font-face{
+    font-family: Karla-BoldItalic;
+    src: url(../Fuestes/Karla/Karla-BoldItalic.ttf);
+}
+@font-face{
+    font-family: Karla-Bold;
+    src: url(../Fuestes/Karla/Karla-Bold.ttf);
+}
+@font-face{
+    font-family: Inconsolata;
+    src: url(../Fuestes/Inconsolata/Inconsolata-Bold.ttf);
+}
+@font-face{
+    font-family: Inconsolata-Regular;
+    src: url(../Fuestes/Inconsolata/Inconsolata-Regular.ttf);
+}
+@font-face{
+    font-family: CrimsonText-Bold;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-Bold.ttf);
+}
+@font-face{
+    font-family: CrimsonText-BoldItalic;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-BoldItalic.ttf);
+}
+@font-face{
+    font-family: CrimsonText-SemiBoldItalic;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-SemiBoldItalic.ttf);
+}
+@font-face{
+font-family: CrimsonText-SemiBold;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-SemiBold.ttf);
+}
+@font-face{
+    font-family: CrimsonText-Italic;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-Italic.ttf);
+}
+@font-face{
+    font-family: CrimsonText-Regular;
+    src: url(../Fuestes/Crimson_Text/CrimsonText-Regular.ttf);
+}
